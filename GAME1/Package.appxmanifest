@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="d0472041-0416-432d-9523-65152eb8fd70" Publisher="CN=Kuan-Te" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>GAME1</DisplayName>
+    <PublisherDisplayName>Kuan-Te</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="GAME1.App">
+      <VisualElements DisplayName="GAME1" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="GAME1" ForegroundText="dark" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
